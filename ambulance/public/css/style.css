@@ -1,0 +1,394 @@
+/* Background color for the body */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    text-align: center;
+}
+
+/* Centering all headings (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+/* Logo Styles (Center the logo) */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Hero Image on Welcome Page (Center the image) */
+.hero-image {
+    width: 100%;
+    max-width: 1500px;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;  /* Center the navigation links horizontally */
+    align-items: center;      /* Vertically center the links */
+    flex-wrap: wrap;          /* Allow the items to wrap on smaller screens */
+    gap: 5px;                /* Space between the links */
+    margin-top: 20px;         /* Optional margin on top */
+    padding: 5px;            /* Optional padding */
+}
+/* Booking Image (Center the image) */
+.booking-image {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 100%;
+    max-width: auto;  /* Limits the width of the container */
+    margin: 0 auto;     /* Centers the container horizontally */
+    padding: 0;      /* Adds padding around the content */
+    text-align: center; /* Centers text within the container */
+}
+
+/* Contact Image (Center the image) */
+.contact-image {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto; /* Centers the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styles for Images */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Right-align text and headings in specific sections */
+.right-align {
+    text-align: right;
+}
+
+/* Center-align text in the booking form (optional) */
+.booking-form {
+    text-align: center;
+}
+
+
+
+/* Additional custom styles for centering buttons */
+.btn {
+    margin: 20px auto;
+    display: inline-block; /* Change to inline-block to adjust button width */
+    padding: 7px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 250px; /* Set a fixed width for the button */
+    transition: background-color 0.3s ease; /* Optional: Add transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add background color to the entire page */
+.page-background {
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px 0; /* Add some padding */
+}
+
+
+/* Form Styles */
+.booking-form {
+    text-align: center;
+    background-color: #fff; /* White background for the form */
+    padding: 40px; /* Add some padding inside the form */
+    border: 2px solid #007bff; /* Add a blue border around the form */
+    border-radius: 8px; /* Round the corners of the form */
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to make the form stand out */
+}
+
+/* Styling for form inputs, textareas, and buttons */
+.booking-form input,
+.booking-form textarea,
+.booking-form button {
+    display: block;
+    width: 100%; /* Make form fields take up full width */
+    margin: 10px 0; /* Add some vertical space */
+    padding: 12px 15px; /* Add padding for better look */
+    font-size: 16px; /* Set font size for readability */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Round the corners */
+}
+
+/* Style the input fields when they are focused */
+.booking-form input:focus,
+.booking-form textarea:focus {
+    border-color: #007bff; /* Change border color when the input is focused */
+    outline: none; /* Remove default outline */
+}
+
+/* Additional custom styles for buttons */
+.booking-form button {
+    background-color: #007bff; /* Blue background for the button */
+    color: #fff; /* White text */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Round the button's corners */
+    cursor: pointer; /* Change cursor to pointer */
+    width: auto; /* Adjust width to auto to allow button to fit content */
+    max-width: 200px; /* Set a max width for the button */
+    margin: 10px auto; /* Center the button */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button hover effect */
+.booking-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for Feedback Form */
+.feedback-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.feedback-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-form-container .form-group {
+    margin-bottom: 15px;
+}
+
+.feedback-form-container .form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+.feedback-form-container .form-group input,
+.feedback-form-container .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.feedback-form-container .form-group textarea {
+    min-height: 150px;
+}
+
+.feedback-form-container .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form-container .btn:hover {
+    background-color: #0056b3;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Feedback Section */
+.feedback-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-section h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Feedback List */
+/* General Styling for Feedback Section */
+.feedback-section {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Header styling */
+.feedback-section h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Styling for the feedback list */
+.feedback-section ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.feedback-section li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback-section li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the feedback content */
+.feedback-section li strong {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.feedback-section li p {
+    font-size: 15px;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.6;
+}
+
+/* Styling for the feedback's email */
+.feedback-section li span {
+    font-size: 13px;
+    color: #888;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .feedback-section {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .feedback-section li {
+        padding: 10px;
+    }
+
+    .feedback-section h2 {
+        font-size: 22px;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #73d1cc; 
+    color: rgb(34, 7, 7);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content .about-us {
+    flex: 1;
+    font-size: 14px;
+    color: #0f0202;
+}
+
+.footer-content .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.footer-content .footer-links li {
+    margin: 0 15px;
+}
+
+.footer-content .footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-content .footer-links li a:hover {
+    text-decoration: underline;
+}
+
+/* terms */
+
+.terms-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.terms-container p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.terms-content h3 {
+    color: #007bff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.search-form {
+    margin: 20px 0;
+    text-align: center;
+}
